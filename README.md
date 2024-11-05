@@ -46,6 +46,12 @@ Una vez que tengas tu Dockerfile listo, es hora de construir la imagen. Para hac
 
 ```bash
 docker build -t nombre_imagen .
+docker build -f flask.Dockerfile -t flask_image .
+docker build -f java.Dockerfile -t java_image .
+docker build -f nginx.Dockerfile -t nginx_image .
+docker build -f node.Dockerfile -t node_image .
+docker build -f python.Dockerfile -t python_image .
+
 ```
 
 - `-t nombre_imagen`: Asigna un nombre a la imagen.
