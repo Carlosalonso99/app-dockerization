@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #e72222;
+    color: #fff;
+    padding: 20px;
+}
+
+#projects {
+    margin: 20px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
